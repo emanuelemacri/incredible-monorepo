@@ -1,0 +1,11 @@
+{
+  "name": "incredible-monorepo-button",
+  "version": "0.0.0",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
