@@ -1,6 +1,6 @@
 const Button = () => (
   <button className="button">
-    Incredible button 1.0.1
+    Incredible button 1.0.2
   </button>
 )
 
