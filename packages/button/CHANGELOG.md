@@ -1,5 +1,11 @@
 # incredible-monorepo-button
 
+## 1.1.1
+
+### Patch Changes
+
+- b7f370e: upgrade button
+
 ## 1.1.0
 
 ### Patch Changes
