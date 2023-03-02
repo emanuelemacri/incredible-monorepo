@@ -1,5 +1,12 @@
 # incredible-monorepo-button
 
+## 1.1.0
+
+### Patch Changes
+
+- af51f93: Update text
+- ee33c87: update text
+
 ## 1.0.1
 
 ### Patch Changes
