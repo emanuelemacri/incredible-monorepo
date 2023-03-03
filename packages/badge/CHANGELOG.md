@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 2.0.0-beta.0
+
+### Major Changes
+
+- Major (tom) 2
+
 ## 1.3.0
 
 ## 1.2.1

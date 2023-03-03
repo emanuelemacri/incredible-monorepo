@@ -1,5 +1,16 @@
 # incredible-monorepo-button
 
+## 2.0.0-beta.0
+
+### Major Changes
+
+- Major (tom) 2
+
+### Patch Changes
+
+- Updated dependencies
+  - incredible-monorepo-badge@2.0.0-beta.0
+
 ## 1.3.0
 
 ### Minor Changes
