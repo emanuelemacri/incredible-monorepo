@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 1.2.0
+
+### Patch Changes
+
+- 7e18c17: Update text in badge - **Ciao alessio**
+
 ## 1.1.2
 
 ## 1.1.1
