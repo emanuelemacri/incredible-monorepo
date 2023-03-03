@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 2.0.2
+
+### Patch Changes
+
+- e0b6da7: +2
+
 ## 2.0.1
 
 ### Patch Changes
