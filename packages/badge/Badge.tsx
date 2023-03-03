@@ -1,6 +1,6 @@
 const Badge = () => (
   <div className="badge">
-    Incredible badge change
+    Incredible badge change - pre
   </div>
 )
 
