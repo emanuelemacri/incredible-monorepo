@@ -1,10 +1,10 @@
 {
   "name": "incredible-monorepo-button",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "dependencies": {
     "react": "^18.2.0",
-    "incredible-monorepo-badge": "1.2.0"
+    "incredible-monorepo-badge": "1.2.1"
   },
   "publishConfig": {
     "access": "public"

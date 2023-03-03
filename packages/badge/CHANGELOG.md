@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 1.2.1
+
+### Patch Changes
+
+- 30edb4b: fix(badge): update
+
 ## 1.2.0
 
 ### Patch Changes
