@@ -1,5 +1,12 @@
 # incredible-monorepo-button
 
+## 1.2.1
+
+### Patch Changes
+
+- Updated dependencies [30edb4b]
+  - incredible-monorepo-badge@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes
