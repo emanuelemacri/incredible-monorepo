@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 4.0.0
+
+### Major Changes
+
+- 94f8f40: 4 rc
+
 ## 4.0.0-rc.0
 
 ### Major Changes
