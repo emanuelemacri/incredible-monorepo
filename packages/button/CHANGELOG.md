@@ -1,5 +1,29 @@
 # incredible-monorepo-button
 
+## 3.0.0
+
+### Patch Changes
+
+- e740017: fixing text
+- Updated dependencies [d9039a1]
+- Updated dependencies [275e726]
+  - incredible-monorepo-badge@3.0.0
+
+## 3.0.0-beta.1
+
+### Patch Changes
+
+- e740017: fixing text
+  - incredible-monorepo-badge@3.0.0-beta.1
+
+## 3.0.0-beta.0
+
+### Patch Changes
+
+- Updated dependencies [d9039a1]
+- Updated dependencies [275e726]
+  - incredible-monorepo-badge@3.0.0-beta.0
+
 ## 2.0.0
 
 ### Major Changes
