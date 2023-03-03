@@ -1,6 +1,6 @@
 const Badge = () => (
   <div className="badge">
-    Incredible badge change - 2.0.1 maintain commit +1
+    Incredible badge change - 2.0.1 maintain commit +2
   </div>
 )
 
