@@ -27,7 +27,7 @@ jobs:
         with:
           commit: "ci: pre-release"
           title: "ci: pre-release"
-          version: release:prerelease
+          version: "yarn changeset pre enter beta && yarn changeset version && git add . && git commit -m \"ci: version prerelease packages\""
           publish: yarn changeset publish && git push --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
