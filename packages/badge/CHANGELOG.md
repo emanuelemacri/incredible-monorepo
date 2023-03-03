@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 3.0.1
+
+### Patch Changes
+
+- c144802: .1
+
 ## 3.0.0
 
 ### Major Changes
