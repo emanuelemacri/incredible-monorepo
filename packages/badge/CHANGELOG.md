@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 4.0.0-rc.0
+
+### Major Changes
+
+- 87edde2: rc, again?
+
 ## 3.0.2
 
 ### Patch Changes
