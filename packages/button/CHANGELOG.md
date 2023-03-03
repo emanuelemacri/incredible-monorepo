@@ -1,5 +1,26 @@
 # incredible-monorepo-button
 
+## 1.3.0
+
+### Minor Changes
+
+- 679995b: add alternative props
+
+  Un esempio incredibile:
+
+  ```tsx
+  // before
+  <Button />
+
+  // after
+  <Button alt />
+  ```
+
+### Patch Changes
+
+- d4427ca: laura text
+  - incredible-monorepo-badge@1.3.0
+
 ## 1.2.1
 
 ### Patch Changes
