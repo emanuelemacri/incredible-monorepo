@@ -1,5 +1,11 @@
 # incredible-monorepo-badge
 
+## 3.0.2
+
+### Patch Changes
+
+- 8f9cf7f: fix test
+
 ## 3.0.1
 
 ### Patch Changes

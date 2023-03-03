@@ -1,5 +1,14 @@
 # incredible-monorepo-button
 
+## 3.0.2
+
+### Patch Changes
+
+- 577829c: Description of this patch (we can replace after).
+- 8f9cf7f: fix test
+- Updated dependencies [8f9cf7f]
+  - incredible-monorepo-badge@3.0.2
+
 ## 3.0.1
 
 ### Patch Changes
