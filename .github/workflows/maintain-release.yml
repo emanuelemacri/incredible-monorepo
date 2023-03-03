@@ -1,0 +1,33 @@
+name: Maintain Release
+on:
+  push:
+    branches:
+      - v3-maintain
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Create Release Pull Request or Publish
+        uses: changesets/action@v1
+        with:
+          commit: "ci: maintain release"
+          title: "ci: maintain release"
+          publish: yarn changeset publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
