@@ -1,5 +1,15 @@
 # incredible-monorepo-badge
 
+## 3.0.0
+
+### Major Changes
+
+- d9039a1: another major
+
+### Patch Changes
+
+- 275e726: fix bla
+
 ## 3.0.0-beta.1
 
 ## 3.0.0-beta.0
