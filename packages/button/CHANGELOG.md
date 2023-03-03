@@ -1,5 +1,15 @@
 # incredible-monorepo-button
 
+## 2.0.1
+
+### Patch Changes
+
+- f93dd31: +1
+- 87b3697: hotfix old version
+- Updated dependencies [f93dd31]
+- Updated dependencies [87b3697]
+  - incredible-monorepo-badge@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
