@@ -1,5 +1,16 @@
 # incredible-monorepo-button
 
+## 4.0.0-rc.0
+
+### Major Changes
+
+- 94f8f40: 4 rc
+
+### Patch Changes
+
+- Updated dependencies [94f8f40]
+  - incredible-monorepo-badge@4.0.0-rc.0
+
 ## 3.0.2
 
 ### Patch Changes
