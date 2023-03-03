@@ -1,5 +1,12 @@
 # incredible-monorepo-button
 
+## 3.0.0-beta.1
+
+### Patch Changes
+
+- e740017: fixing text
+  - incredible-monorepo-badge@3.0.0-beta.1
+
 ## 3.0.0-beta.0
 
 ### Patch Changes
