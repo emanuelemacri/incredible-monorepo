@@ -26,7 +26,7 @@ jobs:
         uses: changesets/action@v1
         with:
           commit: "ci: version prerelease packages"
-          version: "yarn changeset version && git add . && git commit -m \"ci: version prerelease packages\""
+          version: yarn changeset version
           publish: yarn changeset publish && git push --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
