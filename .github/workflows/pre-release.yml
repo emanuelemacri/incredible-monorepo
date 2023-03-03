@@ -1,4 +1,4 @@
-name: Release
+name: Prerelease
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   release:
-    name: Release
+    name: Prerelease
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -26,7 +26,7 @@ jobs:
         uses: changesets/action@v1
         with:
           version: "yarn changeset version && git add . && git commit -m \"ci: version prerelease packages\""
-          publish: yarn changeset publish
+          publish: yarn changeset publish && git push --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
