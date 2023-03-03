@@ -5,5 +5,7 @@
     "incredible-monorepo-badge": "3.0.2",
     "incredible-monorepo-button": "3.0.2"
   },
-  "changesets": []
+  "changesets": [
+    "moody-garlics-beam"
+  ]
 }
