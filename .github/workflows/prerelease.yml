@@ -2,7 +2,7 @@ name: Pre-release
 on:
   push:
     branches:
-      - pre-next
+      - pre
 
 jobs:
   release:
@@ -28,7 +28,7 @@ jobs:
           commit: "ci: pre-release"
           title: "ci: pre-release"
           version: release:prerelease
-          publish: yarn changeset publish
+          publish: yarn changeset publish && git push --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
