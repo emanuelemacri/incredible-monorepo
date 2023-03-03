@@ -1,0 +1,33 @@
+name: Prerelease
+on:
+  push:
+    branches:
+      - pre
+
+jobs:
+  release:
+    name: Prerelease
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Create Pre-Release Pull Request or Publish
+        uses: changesets/action@v1
+        with:
+          commit: "ci: version prerelease packages"
+          version: "yarn changeset version && git add . && git commit -m \"ci: version prerelease packages\""
+          publish: yarn changeset publish && git push --follow-tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
