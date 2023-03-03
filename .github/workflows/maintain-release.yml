@@ -27,7 +27,7 @@ jobs:
         with:
           commit: "ci: maintain release"
           title: "ci: maintain release"
-          publish: yarn changeset publish --no-git-tag
+          publish: yarn changeset publish --tag v2-lts
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
