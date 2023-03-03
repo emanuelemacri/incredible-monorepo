@@ -14,6 +14,7 @@
     "husky": "^8.0.0"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release:prerelease": "yarn changeset pre enter beta && yarn changeset version && git add . && git commit -m \"ci: version prerelease packages\""
   }
 }
