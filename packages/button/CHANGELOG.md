@@ -1,5 +1,16 @@
 # incredible-monorepo-button
 
+## 1.2.0
+
+### Minor Changes
+
+- 2fb7d38: Button Minor
+
+### Patch Changes
+
+- Updated dependencies [7e18c17]
+  - incredible-monorepo-badge@1.2.0
+
 ## 1.1.2
 
 ### Patch Changes
