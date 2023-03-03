@@ -1,5 +1,18 @@
 # incredible-monorepo-button
 
+## 2.0.0
+
+### Major Changes
+
+- daded3f: Major (tom) 2
+
+### Patch Changes
+
+- 0ddaee8: pre release fix
+- Updated dependencies [0ddaee8]
+- Updated dependencies [daded3f]
+  - incredible-monorepo-badge@2.0.0
+
 ## 2.0.0-beta.0
 
 ### Major Changes
