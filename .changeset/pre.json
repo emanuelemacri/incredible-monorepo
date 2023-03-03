@@ -5,5 +5,8 @@
     "incredible-monorepo-badge": "2.0.0",
     "incredible-monorepo-button": "2.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "big-news-hear",
+    "breezy-ravens-remain"
+  ]
 }
