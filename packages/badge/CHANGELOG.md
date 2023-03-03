@@ -1,5 +1,12 @@
 # incredible-monorepo-badge
 
+## 2.0.1
+
+### Patch Changes
+
+- f93dd31: +1
+- 87b3697: hotfix old version
+
 ## 2.0.0
 
 ### Major Changes
